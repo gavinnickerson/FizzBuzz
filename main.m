@@ -12,16 +12,16 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         for (int i = 1; i <= 100; i++) {
             if (i % 3 == 0 && i % 5 == 0) {
-                NSLog(@"FizzBuzz");
+                printf("FizzBuzz\n");
             }
             else if (i % 3 == 0) {
-                NSLog(@"Fizz");
+                printf("Fizz\n");
             }
             else if (i % 5 == 0) {
-                NSLog(@"Buzz");
+                printf("Buzz\n");
             }
             else {
-                NSLog(@"%i", i);
+                printf("%i\n", i);
             }
         }
     }
